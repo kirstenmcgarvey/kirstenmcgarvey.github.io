@@ -1,13 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|Barlow+Condensed:500,600');
+@import url('https://fonts.googleapis.com/css?family=Italianno|Anonymous+Pro:400,700|Barlow+Condensed:100,300,500,600');
 
 
 body {
   margin: 100px;
-  font-family:"Anonymous Pro", "Arial", sans-serif;
-  font-size: 12px;
+  /*font-family:"Anonymous Pro", "Arial", sans-serif;*/
+  font-family: "Barlow Condensed", "Arial", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 1px;
   color: rgb(43,63,95);
 }
 
+/*nav ul{
+  font-family:"Barlow Condensed", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  list-style: none;
+  margin: -80px 0px 20px -127px;
+}
+
+nav li{
+  display: inline;
+  padding-right: 25px;
+  font-size: 19px;
+}*/
 
 
 #wrapper {
@@ -44,7 +60,7 @@ header div {
 
 header h1{
   font-family:"Barlow Condensed", "Arial", sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 3px;
   font-size: 50px;
   padding-top: 5px;
@@ -56,12 +72,13 @@ header p {
   margin: 0;
 }
 
+
 header p{
-  font-family: "Anonymous Pro", "Helvetica", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  padding-top: 3px;
+  font-family: "Italianno", "Helvetica", sans-serif;
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 0px;
   padding-left: 20px;
 }
 
@@ -69,7 +86,7 @@ header p{
 header ul{
   list-style-type: circle;
   font-style: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 30px;
   letter-spacing: 2px;
   padding-left: 50px;
@@ -96,10 +113,9 @@ main {
   border-left: 0;
   margin-right: 6px;
   padding: 18px 18px 18px 40px;
-  font-size: 12px;
+  font-size: 14.5px;
   margin-left: -20px;
-  font-size: 11.5px;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
   line-height: 17px;
 
 }
@@ -107,7 +123,7 @@ main {
 #about {
   grid-area: about;
   margin-top: 115px;
-  font-size: 11.5px;
+  font-size: 14px;
 }
 
 #about article {
@@ -122,7 +138,7 @@ main {
 #about h2 {
   font-family: "Barlow Condensed", "Arial", sans-serif;
   margin: 0;
-  font-weight: 500;
+  font-weight: 300;
   padding-bottom: .5px;
 }
 
@@ -151,14 +167,14 @@ div #skills{
 #expleft h2,
 #expright h2{
   font-family:"Barlow Condensed", "Arial", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 20px;
   letter-spacing: 1px;
 }
 
 #eduleft h2{
   font-family:"Barlow Condensed", "Arial", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 30px;
   letter-spacing: 3.5px;
   margin-bottom: -5px;
@@ -191,13 +207,13 @@ div #minors{
 #eduleft p em,
 #eduright p em{
   letter-spacing: 1px;
-  font-size: 11.5px;
+  font-size: 14px;
   margin-top: -5px;
 }
 
 #eduleft h3{
   font-family:"Barlow Condensed", "Arial", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   letter-spacing: 1px;
   margin-top: 10px;
@@ -239,7 +255,7 @@ div #minors{
   background-color: rgb(43,63,95);
   margin-top: 20px;
   color: rgb(255,224,211);
-  font-size: 11.5px;
+  font-size: 14px;
   padding-bottom: 7px;
 }
 
@@ -273,7 +289,7 @@ div #minors{
 #expleft p em,
 #expright p em {
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #expleft li{

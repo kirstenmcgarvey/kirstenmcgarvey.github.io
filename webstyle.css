@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Italianno|Anonymous+Pro:400,700|Barlow+Condensed:100');
+
+ #graphicdesign{
+  width: 1500px;
+}
+
+#magazine{
+  width: 2210px;
+}
+
+header h1 {
+  margin-left: 8px;
+  font-size: 20px;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  letter-spacing: 3px;
+  display: inline-block;
+}
+
+main {
+  margin-top: 100px;
+}
+
+
+#graphicdesign main {
+  display: grid;
+  grid-template-columns: 650px repeat(2, 382px);
+  grid-template-rows: 600px;
+  grid-gap: 20px;
+  grid-template-areas:
+  "description   visualone   visualtwo";
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+  margin-right: 8px;
+}
+
+#magazine main {
+  display: grid;
+  grid-template-columns: 650px repeat(2, 740px);
+  grid-template-rows: 600px;
+  grid-gap: 20px;
+  grid-template-areas:
+  "description   visualone   visualtwo";
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
+  border-right: 3px solid #000;
+  margin-right: 8px;
+}
+
+
+nav {
+  /*background-color: rgb(133,137,145);*/
+  /*margin: 5px 0px 20px -37px;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul{
+  font-family:"Barlow Condensed", "Arial", sans-serif;
+  list-style: none;
+  display: inline-block;
+}
+
+nav li{
+  display: inline;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+#description,
+#visualone,
+#visualtwo{
+  color: rgb(43,63,95);
+}
+
+#description{
+  grid-area: description;
+  width: 650px;
+  background-color: rgb(250,251,255);
+  padding-left: 20px;
+  padding-top: 175px;
+  border-right: 3px solid #000;
+}
+
+#description h1{
+  font-family: "Barlow Condensed","Arial", serif;
+  font-size: 70px;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
+#description h2{
+  font-family: "Italianno","Arial", sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-top: -70px;
+}
+
+#description p{
+  font-family: "Barlow Condensed", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 100px;
+  margin-top: -30px;
+}
+
+
+#visualone {
+  grid-area: visualone;
+}
+
+#visualone p,
+#visualtwo p {
+  font-family: "Barlow Condensed", "Arial", sans-serif;
+  margin-top: 0px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+
+#visualtwo{
+  grid-area: visualtwo;
+  /*width: 342px;*/
+}
+
+#magazine img{
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+#graphicdesign img {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+a {
+  color: rgb(43,63,95);
+  text-decoration: none;
+}
+
+a:hover,
+a:visited {
+  color: rgb(106,81,233);
+  text-decoration: underline;
+}
+
+a:active{
+  color: rgb(255,224,211);
+}
